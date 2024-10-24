@@ -32,7 +32,7 @@ k8-namespace-provisioning:
 ##### Prepare Helm for Install
 Add new repo that points to the raw repo path as used above
 
-`helm repo add k8-namespace-provisioning helm repo add k8-namespace-provisioning https://raw.githubusercontent.com/kcsoukup/k8-namespace-provisioning/main/`
+`helm repo add k8-namespace-provisioning https://raw.githubusercontent.com/kcsoukup/k8-namespace-provisioning/main/`
 
 Update new repo cache
 
