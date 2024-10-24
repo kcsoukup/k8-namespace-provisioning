@@ -54,7 +54,7 @@ Test Helm manifest with --set
 
 `helm install ns-mushroomhead --set k8-namespace-provisioning.namespace.name=mushroomhead . --debug --dry-run`
 
-Output -- Can see both User Suppied and Computed, with the final metadata
+Output -- Can see both User Supplied and Computed, with the final manifest metadata.
 ```
 NAME: ns-hello-world
 LAST DEPLOYED: Mon Oct 21 07:59:31 2024
@@ -117,9 +117,11 @@ metadata:
 ```
 
 Remove "--dry-run" to apply either of these Helm manifests
+
 `helm install ns-hello-world --set k8-namespace-provisioning.namespace.name=mushroomhead . --debug`
 
 Check for new namespace
+
 `kubectl get namespaces`
 
 Output
